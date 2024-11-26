@@ -4,7 +4,7 @@ import AppHeader from "./component/AppHeader/AppHeader";
 function App() {
   return (
     <>
-      <div className="h-screen min-w-full">
+      <div className="h-screen min-w-full relative">
         <AppHeader />
         <HomePage />
       </div>

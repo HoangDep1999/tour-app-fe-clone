@@ -1,6 +1,8 @@
 function HomePage(){
     return(
-        <h1>HomePage</h1>
+        <div className="">
+            Hello ev
+        </div>
     )
 }
 
