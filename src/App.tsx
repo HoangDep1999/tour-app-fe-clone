@@ -1,5 +1,15 @@
+import HomePage from "./component/AppContent/HomePage/HomePage";
+import AppHeader from "./component/AppHeader/AppHeader";
+
 function App() {
-  return <h1 className="font-bold text-xl underline ">Hello world!</h1>;
+  return (
+    <>
+      <div className="h-screen min-w-full">
+        <AppHeader />
+        <HomePage />
+      </div>
+    </>
+  );
 }
 
 export default App;
